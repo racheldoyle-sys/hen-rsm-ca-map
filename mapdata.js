@@ -32,7 +32,7 @@ var simplemaps_canadamap_mapdata={
     label_hover_color: "#fff",
     label_size: 22,
     label_font: "Arial",
-    hide_labels: "yes",
+    hide_labels: "no",
     hide_eastern_labels: "yes",
     manual_zoom: "no",
     initial_zoom: -1,
