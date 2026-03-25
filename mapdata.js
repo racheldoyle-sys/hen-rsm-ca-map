@@ -7,8 +7,8 @@ var simplemaps_canadamap_mapdata={
     border_color: "#ffffff",
     popups: "no",
     state_description: "",
-    state_color: "#2B587A",
-    state_hover_color: "#3E6F94",
+    state_color: "",
+    state_hover_color: "",
     state_url: "",
     border_size: "2.5",
     all_states_inactive: "no",
@@ -69,55 +69,81 @@ var simplemaps_canadamap_mapdata={
   state_specific: {
     AB: {
       name: "Alberta",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#2B587A",
+      hover_color: "#408bc3"
     },
     BC: {
       name: "British Columbia",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#2B587A",
+      hover_color: "#408bc3"
     },
     SK: {
       name: "Saskatchewan",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#2B587A",
+      hover_color: "#408bc3"
     },
     MB: {
       name: "Manitoba",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#2B587A",
+      hover_color: "#408bc3"
     },
     ON: {
       name: "Ontario",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#3b729f",
+      hover_color: "#88a4bc"
     },
     QC: {
       name: "Quebec",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#3b729f",
+      hover_color: "#88a4bc"
     },
     NB: {
       name: "New Brunswick",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#3b729f",
+      hover_color: "#88a4bc"
     },
     PE: {
       name: "Prince Edward Island",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#3b729f",
+      hover_color: "#88a4bc"
     },
     NS: {
       name: "Nova Scotia",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#3b729f",
+      hover_color: "#88a4bc"
     },
     NL: {
       name: "Newfoundland",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#3b729f",
+      hover_color: "#88a4bc"
     },
     NU: {
       name: "Nunavut",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#2B587A",
+      hover_color: "#408bc3"
     },
     NT: {
       name: "Northwest Territories",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#2B587A",
+      hover_color: "#408bc3"
     },
     YT: {
       name: "Yukon",
-      zoomable: "no"
+      zoomable: "no",
+      color: "#2B587A",
+      hover_color: "#408bc3"
     }
   },
   locations: {},
